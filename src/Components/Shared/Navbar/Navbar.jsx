@@ -49,12 +49,12 @@ const Navbar = () => {
             Blog
           </Link>
           <div className="flex gap-2">
-            <button className="border-[1px] rounded-3xl px-5 py-[14px] hover:bg-[#FF6600] flex">
+            <button className="btn-rounded flex">
               <Link href="/contact" className="text-[#23272E] hover:text-white">
                 Contact Us
               </Link>
             </button>
-            <button className="border-[1px] rounded-3xl px-5 py-[14px] hover:bg-[#FF6600] flex">
+            <button className="btn-rounded flex">
               <Link
                 href="/getquote"
                 className="text-[#23272E] hover:text-white"

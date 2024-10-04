@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="relative bg-[#E7E7E7]">
       <div className="container mx-auto min-h-screen">
         <p className="text-[18px] font-medium pt-[72px]">
-          We Build Your Dream Website
+          We Build Your Dream Websiteeeeeee
         </p>
         <h1 className="font-bold text-[40px] md:text-[190px] tracking-[-4%]">
           Web <span className="text-[#FF6600]">Code</span> Sky

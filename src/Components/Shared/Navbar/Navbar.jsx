@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import img from "../../../assets/webcodesky.png";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,12 +12,12 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className=" text-white xl:px-[112px] md:px-10 sm:px-2 px-4">
+    <div className=" text-white xl:px-[72px] md:px-10 sm:px-2 px-4">
       <div className="flex justify-between items-center h-16">
         {/* Logo */}
         <div className="flex-shrink-0">
           <Link href="/" className="text-2xl font-bold text-blue-600">
-            WebCodeSky
+            <Image src={img} alt="logo" width={300} height={200} />
           </Link>
         </div>
 
@@ -49,12 +51,12 @@ const Navbar = () => {
             Blog
           </Link>
           <div className="flex gap-2">
-            <button className="border-[1px] rounded-3xl px-5 py-[14px] hover:bg-[#FF6600] flex">
+            <button className="btn-rounded flex">
               <Link href="/contact" className="text-[#23272E] hover:text-white">
                 Contact Us
               </Link>
             </button>
-            <button className="border-[1px] rounded-3xl px-5 py-[14px] hover:bg-[#FF6600] flex">
+            <button className="btn-rounded flex">
               <Link
                 href="/getquote"
                 className="text-[#23272E] hover:text-white"

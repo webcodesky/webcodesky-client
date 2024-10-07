@@ -4,8 +4,8 @@ import Service from "@/Components/Home/service/Service";
 export default function Home() {
   return (
     <div className="">
-     <Banner/>
-     <Service/>
+      <Banner />
+      <Service />
     </div>
   );
 }
